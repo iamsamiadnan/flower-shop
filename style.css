@@ -146,12 +146,12 @@ header > div {
 
 /* Deal Section */
 
-.deal-container {
+.deal-container, .testimonial-container {
     display: flex;
     padding: 100px 0 100px 0;
 }
 
-.deal-container > div {
+.deal-container > div, .testimonial-container > div{
     flex: 1;
 }
 
@@ -161,7 +161,7 @@ header > div {
     justify-content: center;
 }
 
-.deal-content-wrapper {
+.deal-content-wrapper, .testimonial-content-wrapper {
     display: flex;
     align-items: center;
 }
@@ -218,6 +218,38 @@ header > div {
     border-radius: 8px;
 }
 
+
+/* Testimonial */
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-group {
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-group > h2 {
+    margin: 0 0 24px 0;
+}
+
+.testimonial-group > blockquote {
+    margin: 0 0 32px 0;
+    padding: 0 0 0 32px;
+
+    background-image: url("./Flower Asset/quote.png");
+    background-repeat: no-repeat;
+    background-size: 24px;
+
+}
+
+.testimonial-group > span {
+    margin: 0 0 0 32px;
+}
+
 /* Footer */
 footer {
     background-color: #111010;
@@ -255,3 +287,4 @@ footer {
 .footer-container > h1 > span {
     color: #E55473;
 }
+
