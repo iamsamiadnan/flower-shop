@@ -1,0 +1,140 @@
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: rgba(229, 84, 115, 0.1);
+    height: 800px;
+    padding: 50px 0 0 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;	
+}
+
+header > div {
+    display: flex;
+    gap: 97px;
+}
+
+.header-column-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-content-group > h1 {
+    font-size: 80px;
+    font-weight: 900;
+    max-width: 708px;
+    margin: 0 0 32px 0;
+}
+
+.header-content-group > p {
+    margin: 0 0 32px 0;	
+}
+
+.sub-heading {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 634px;
+}
+
+.header-image {
+    width: 635px;
+    height: 800px;
+}
+
+.btn {
+    padding: 20px 43px 20px 43px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+
+.btn-primary {
+    background-color: #E55473;
+}
+
+.text-primary {
+    color: #272727;
+} 
+
+.text-white {
+    color: #FFF;
+}
+
+.text-primary-a60 {
+    color: rgba(39, 39, 39, 0.6);
+}
+
+/* Featured Flower Section */
+
+.featured-flower-container {
+    display: flex;
+    gap: 24px;		
+}
+.featured-flower-frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;	
+    
+        
+}
+.featured-flower-frame {
+    height: 538px;
+    width: 464px;
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0 0 32px 0;
+}
+
+.featured-flower-frame > img {
+}
+
+.featured-flower-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+.container-header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container-header {
+    text-align: center;
+}
+
+.container-header > h2 {
+    margin: 0 0 24px 0;
+}
+
+.container-header > p {
+    margin: 0 0 48px 0;
+}
+
+.title-text {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.bg-maroon {
+    background-color: rgba(167, 33, 98, 0.15);
+}	
+
+.bg-teal {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.bg-leaf {
+    background-color: rgba(71, 125, 17, 0.15);
+}
