@@ -193,6 +193,7 @@ header > div {
     height: 396px;
 }
 
+/* Newsletter Section */
 .subscribe-field {
     width: 100%;
     padding: 23px 22px 22px 22px;
@@ -215,4 +216,42 @@ header > div {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #111010;
+    height: 449px;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.footer-container h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0 0 24px;
+}
+
+.footer-container p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 32px 0;
+}
+
+.footer-container > span {
+    display: block;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-container > h1 > span {
+    color: #E55473;
 }
