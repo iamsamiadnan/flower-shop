@@ -138,3 +138,41 @@ header > div {
 .bg-leaf {
     background-color: rgba(71, 125, 17, 0.15);
 }
+
+
+/* Deal Section */
+
+.deal-container {
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.deal-container > div {
+    flex: 1;
+}
+
+.deal-image-wrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+.deal-content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.deal-content-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deal-content-group > h2 {
+    margin: 0 0 24px 0;
+}
+
+.deal-content-group > p {
+    margin: 0 0 32px 0;
+    text-align: center;
+}
