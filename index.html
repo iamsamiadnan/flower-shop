@@ -40,11 +40,14 @@
 			}
 
 			.header-content-group > p {
+				margin: 0 0 32px 0;	
+			}
+		
+			.sub-heading {
 				font-weight: 400;
 				font-size: 18px;
 				line-height: 30px;
 				max-width: 634px;
-				margin: 0 0 32px 0;	
 			}
 
 			.header-image {
@@ -75,6 +78,71 @@
 			.text-primary-a60 {
 				color: rgba(39, 39, 39, 0.6);
 			}
+
+			/* Featured Flower Section */
+
+			.featured-flower-container {
+				display: flex;
+				gap: 24px;		
+			}
+			.featured-flower-frame-wrapper {
+				display: flex;
+				flex-direction: column;
+				align-items: center;	
+				
+					
+			}
+			.featured-flower-frame {
+				height: 538px;
+				width: 464px;
+				border-radius: 300px 300px 0 0;
+				display: flex;
+				justify-content: center;
+				align-items: end;
+				margin: 0 0 32px 0;
+			}
+
+			.featured-flower-frame > img {
+			}
+
+			.featured-flower-text {
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 35px;
+			}
+			.container-header-wrapper {
+				display: flex;
+				justify-content: center;
+			}
+
+			.container-header {
+				text-align: center;
+			}
+
+			.container-header > h2 {
+				margin: 0 0 24px 0;
+			}
+
+			.container-header > p {
+				margin: 0 0 48px 0;
+			}
+
+			.title-text {
+				font-weight: 900;
+				font-size: 40px;
+			}
+
+			.bg-maroon {
+				background-color: rgba(167, 33, 98, 0.15);
+			}	
+
+			.bg-teal {
+				background-color: rgba(5, 151, 160, 0.15);
+			}
+
+			.bg-leaf {
+				background-color: rgba(71, 125, 17, 0.15);
+			}
 		</style>
 	</head>
 
@@ -84,7 +152,7 @@
 				<div class="header-column-left">
 					<div class="header-content-group">
 						<h1 class="text-primary">Let's make beautiful flowers a part of your life.</h1>
-						<p class="text-primary-a60">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>	
+						<p class="sub-heading text-primary-a60">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>	
 						<button class="btn btn-primary text-white">Shop Now</button>	
 					</div>
 				</div>
@@ -94,5 +162,39 @@
 			</div>
 		</header>
 
+		<main>
+			<section style="margin: 178px 0 178px 0;">
+				<div class="container">
+					<div class="container-header-wrapper">
+						<div class="container-header">
+							<h2 class="title-text text-primary">Our Featured Flowers</h2>
+							<p class="sub-heading text-primary-a60">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						</div>
+					</div>
+					<div class="featured-flower-container">
+						<div class="featured-flower-frame-wrapper">
+							<div class="featured-flower-frame bg-maroon">
+								<img src="./Flower Asset/pngwing 6.png">
+							</div>
+							<a class="featured-flower-text text-primary"  href="">Pink Flower Tree</a>
+						</div>
+
+						<div class="featured-flower-frame-wrapper">
+							<div class="featured-flower-frame bg-teal"  >
+								<img src="./Flower Asset/pngwing 5.png" style="position: relative;bottom: 51px;">
+							</div>
+							<a class="featured-flower-text text-primary"  href="">Pink Flower Tree</a>
+						</div>
+						<div class="featured-flower-frame-wrapper">
+							<div class="featured-flower-frame bg-leaf">
+								<img src="./Flower Asset/pngwing 7.png">
+							</div>
+							<a class="featured-flower-text text-primary"  href="">Pink Flower Tree</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
